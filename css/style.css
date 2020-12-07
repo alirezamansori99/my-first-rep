@@ -1,0 +1,198 @@
+body {
+    font-size: 100%;
+    font-family: 'vazir';
+
+}
+
+/*? ------------------------------------------------------------------- */
+/*? -----------------------       global          ------------------------- */
+/*? ------------------------------------------------------------------- */
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 3rem;
+    color: #170D4B;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 3rem;
+    color: #170D4B;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 3rem;
+    color: #362d61;  
+    
+}
+p {
+    font-size: 1rem !important;
+    font-weight: 200;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin: 20px 0px 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+p.card-text{
+    font-size: 16px !important;
+    font-weight: 300;
+    color: cadetblue;
+    text-align: justify;
+    padding: 0;
+}
+
+p.p-g {
+    font-size: 16px !important;
+    font-weight: 300;
+    color: cadetblue;
+    text-align: right;
+    padding: 0;
+
+}
+
+
+
+
+
+/*? ------------------------------------------------------------------- */
+/*? -----------------------         colors      -------------------------- */
+/*? ------------------------------------------------------------------- */
+
+
+.bg-grad {
+    background-color: blue;
+    background-image: linear-gradient( 133deg , #450B92 0%, #8E57D7 100%);
+
+}
+
+.p-c {
+    color: #D5CDE0;
+}
+
+.bg-me {
+    background-color: #D2CFE2;
+}
+
+
+/*? ------------------------------------------------------------------- */
+/*? -----------------------         buttons      ---------------------- */
+/*? ------------------------------------------------------------------- */
+
+.btn-lg {
+    width: 80px;
+    height: 35px;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    line-height: 1.3rem;
+    font-weight: 300;
+    font-size: 16px;
+}
+.btn-lg:hover {
+    background-color: #BEA3E1 ;
+    border-color: #BEA3E1;
+
+    
+}
+
+.box-icon {
+    width: 70px;
+    /* height: fit-content; */
+    padding:10px;
+    line-height: 13px;
+    margin-bottom: 1.5rem;
+    border-radius: 3px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.14);
+    background-color: white;
+}
+.btn-me {
+    width: 150px;
+    height: 35px;
+    font-size: 1rem;
+    background-color: tomato;
+    background-image: linear-gradient(122deg , #450B92 0% ,#8E57D7 100% );
+    color: white;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.09);
+}
+
+
+/*? ------------------------------------------------------------------- */
+/*? -----------------------         header      ----------------------- */
+/*? ------------------------------------------------------------------- */
+
+header {
+    padding-top: 100px;
+    
+    text-align: center;
+
+}
+
+.img-holder {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto ;
+}
+
+/*? ------------------------------------------------------------------- */
+/*? -----------------------         cards      ------------------------ */
+/*? ------------------------------------------------------------------- */
+
+
+.grad-fill {
+    background-color: chocolate;
+    background-image: linear-gradient(to bottom ,#24156f 0% , #c2a9e4 40% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    margin-left: 1rem;
+}
+
+.fi-card {
+    border: 0;
+    box-shadow: 0px 5px 7px 0 rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+    /* position: relative; */
+}
+
+.card.fi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 7px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card.fi-card:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background-image: linear-gradient(to bottom ,#24156f 0% , #c2a9e4 100% );
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.pers {
+    transform: translateY(-100px);
+    position: relative;
+    z-index: -1;
+}
